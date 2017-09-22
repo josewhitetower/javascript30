@@ -1,6 +1,14 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos https://javascript30.com/ 
 
+### Day 23: September 22, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Array methods `filter`, `map`, `sort`, `reduce`.  
+2. `console.table()`
 ### Day 22: September 21, 2017    
 
 **Today's Progress**:   
