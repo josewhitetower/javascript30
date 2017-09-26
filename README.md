@@ -1,6 +1,14 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos https://javascript30.com/ 
 
+### Day 25: September 26, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. `fetch(endpoint).then(blob=>blob.json()).then(data=> cities.push(...data))` to put the JSON elements into arrays.  
+2. `const regex = new RegExp(wordToMatch, 'gi');` to create a Regular expression.  
 ### Day 24: September 25, 2017    
 
 **Today's Progress**:   
