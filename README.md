@@ -1,6 +1,13 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos https://javascript30.com/ 
 
+### Day 26: September 27, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Array methods `Array.prototype.some()`, ` Array.prototype.every()`, `Array.prototype.find()` , `Array.prototype.findIndex()`.  
 ### Day 25: September 26, 2017    
 
 **Today's Progress**:   
