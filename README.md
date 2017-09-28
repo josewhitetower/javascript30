@@ -1,6 +1,13 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos https://javascript30.com/ 
 
+### Day 27: September 28, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Canvas methods
 ### Day 26: September 27, 2017    
 
 **Today's Progress**:   
