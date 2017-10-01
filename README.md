@@ -1,6 +1,13 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos https://javascript30.com/ 
 
+### Day 28: October 1, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Dev Toll Tricks `console.time`, `console.count`, `console.clear`,`console.group`, `console.dir`, `console, assert`, `console.info`, `console.warn`, `console.error`
 ### Day 27: September 28, 2017    
 
 **Today's Progress**:   
