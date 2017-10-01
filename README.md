@@ -7,7 +7,8 @@ This is a repository that follows Javascript30 by @wesbos https://javascript30.c
 1. Today I continued with JavaScript30.  
 
 **Thoughts**:     
-1. Dev Toll Tricks `console.time`, `console.count`, `console.clear`,`console.group`, `console.dir`, `console, assert`, `console.info`, `console.warn`, `console.error`
+1. Dev Toll Tricks `console.time`, `console.count`, `console.clear`,`console.group`, `console.dir`, `console, assert`, `console.info`, `console.warn`, `console.error`.  
+2. Muiltiple checkboxes. 
 ### Day 27: September 28, 2017    
 
 **Today's Progress**:   
