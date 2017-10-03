@@ -1,6 +1,13 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos https://javascript30.com/ 
+### Day 29: October 3, 2017    
 
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Key Sequence Detection.  
+2. Slide In on Scroll.  
 ### Day 28: October 1, 2017    
 
 **Today's Progress**:   
