@@ -1,5 +1,13 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos https://javascript30.com/ 
+### Day 30: October 4, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Asigning values to strings, numbers or booleans copies will not tu update the orginial value.  
+2. Doing it to Array or Objects will. They are not copies, but references.  
 ### Day 29: October 3, 2017    
 
 **Today's Progress**:   
