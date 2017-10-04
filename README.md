@@ -8,6 +8,10 @@ This is a repository that follows Javascript30 by @wesbos https://javascript30.c
 **Thoughts**:     
 1. Asigning values to strings, numbers or booleans copies will not tu update the orginial value.  
 2. Doing it to Array or Objects will. They are not copies, but references.  
+3. `e.preventDefault` prevent the page to reload.  
+4. `JSON.stringify()`  and `JSON.parse()` Objects to Strings and viceversa.  
+5.  Event delegation allows you to avoid adding event listeners to specific nodes;  instead, the event listener is added to one parent.  
+6. Using the Element.matches API, we can see if the element matches our desired target.  
 ### Day 29: October 3, 2017    
 
 **Today's Progress**:   
