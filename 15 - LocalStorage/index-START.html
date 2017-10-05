@@ -37,8 +37,10 @@
       <li>Loading Tapas...</li>
     </ul>
     <form class="add-items">
+      <input type="button" value="✓ Toggle All" id="all">
       <input type="text" name="item" placeholder="Item Name" required>
       <input type="submit" value="+ Add Item">
+
     </form>
   </div>
 
@@ -46,6 +48,10 @@
     const addItems = document.querySelector('.add-items');
     const itemsList = document.querySelector('.plates');
     const items = JSON.parse(localStorage.getItem('items')) || [];
+    const all = document.querySelector('#all');
+
+
+
 
     function addItem(e) {
       e.preventDefault()
@@ -82,8 +88,30 @@
 
     }
 
+
+    function toggleAll() {
+      const allMarked = items.every(item => item.done);
+      if (allMarked) {
+        items.forEach(item => {
+          item.done = false
+          populateList(items, itemsList);
+          localStorage.setItem('items', JSON.stringify(items))
+        })
+      }
+      else {
+        items.forEach(item => {
+          item.done = true
+          populateList(items, itemsList);
+          localStorage.setItem('items', JSON.stringify(items))
+        })
+      }
+
+    }
+
     addItems.addEventListener('submit', addItem);
     itemsList.addEventListener('click', toggleDone);
+    all.addEventListener('click', toggleAll);
+
     populateList(items, itemsList);
   </script>
 
