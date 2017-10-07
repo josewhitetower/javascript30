@@ -1,13 +1,20 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 32: October 7, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Use `e.offsetY` and `e.offsetY` to get the position where he cursor is.
 ### Day 31: October 5, 2017    
 
 **Today's Progress**:   
 1. Today I continued with JavaScript30.  
 
 **Thoughts**:     
-1. Today I made toggleAll on Local Tapas
+1. Today I made toggleAll on Local Tapas 
 ### Day 30: October 4, 2017    
 
 **Today's Progress**:   
