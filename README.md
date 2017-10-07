@@ -8,6 +8,7 @@ https://javascript30.com/
 
 **Thoughts**:     
 1. Use `e.offsetY` and `e.offsetY` to get the position where he cursor is.
+2. `String.prototype.trim()` returns a  new string representing the calling string stripped of whitespace from both ends.
 ### Day 31: October 5, 2017    
 
 **Today's Progress**:   
