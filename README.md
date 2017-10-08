@@ -1,6 +1,13 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 33: October 8, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. 
 ### Day 32: October 7, 2017    
 
 **Today's Progress**:   
