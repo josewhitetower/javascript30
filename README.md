@@ -1,13 +1,40 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
-### Day 34: October 8, 2017    
+### Day 35: October 10, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Speech recognition.  
+ ```javascript
+  window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognition.interimResults = true;
+```
+
+### Day 34: October 9, 2017    
 
 **Today's Progress**:   
 1. Today I continued with JavaScript30.  
 
 **Thoughts**:     
 1. Video
+ ```javascript
+function getVideo() {
+  navigator.mediaDevices.getUserMedia({ video: true, audio: false })
+    .then(localMediaStream => {
+      console.log(localMediaStream);
+      video.src = window.URL.createObjectURL(localMediaStream);
+      video.play();
+    })
+    .catch(err => {
+      console.error(`OH NO!!!`, err);
+    });
+}
+```
+
 ### Day 33: October 8, 2017    
 
 **Today's Progress**:   
