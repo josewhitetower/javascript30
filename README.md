@@ -1,6 +1,25 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 36: October 11, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Device Orientation and Navigator Geolocation.  
+ ```javascript
+      navigator.geolocation.watchPosition((data) => {
+      console.log(data);
+    }, (err) => {
+      console.error(err);
+      alert('HEY! YOU GOTTA ALLOW THAT TO HAPPEN!!!');
+    });
+
+    if (window.DeviceOrientationEvent) {
+      window.addEventListener('deviceorientation', deviceOrientationHandler, false);
+    }
+```
 ### Day 35: October 10, 2017    
 
 **Today's Progress**:   
