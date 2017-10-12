@@ -1,6 +1,31 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 37: October 12, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Follow along links.  
+2. How to get the element coordinates.  
+3. Build an object and read its properties.  
+4. CSS property: transform.  
+ ```javascript
+    const linkCoords = this.getBoundingClientRect()
+        const coords = {
+        width: linkCoords.width,
+        height: linkCoords.height,
+        top: linkCoords.top + window.scrollY,
+        left: linkCoords.left + window.scrollX
+      };
+      highlight.style.height = `${coords.height}px`;
+      highlight.style.width = `${coords.width}px`;
+      highlight.style.transform = `translate(${coords.left}px,${coords.top}px)`
+    }
+    triggers.forEach(a => a.addEventListener('mouseenter', highlightLink))
+  
+```
 ### Day 36: October 11, 2017    
 
 **Today's Progress**:   
