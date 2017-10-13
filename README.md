@@ -20,6 +20,13 @@ https://javascript30.com/
       toggle(false)
     });
 ```
+3. `window.scrollY` to know where the windows is.  
+4. `element.offsetHeight + 'px'` to know the height of the element.  
+5. `element.offsetTop + 'px'` to know the top position of the element.  
+6. window's event scroll
+``` javascript
+    window.addEventListener('scroll', fixNav)
+```   
 ### Day 37: October 12, 2017    
 
 **Today's Progress**:   
