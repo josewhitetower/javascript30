@@ -1,6 +1,25 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 38: October 13, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Change event from an element.
+```javascript
+   voicesDropdown.addEventListener('change', setVoices);
+    //voicesDropdown.onchange = setVoice  
+```
+2. Call a function and pass a parameter.
+ ```javascript
+    stopButton.addEventListener('click', () => toggle(false));
+    stopButton.addEventListener('click', toggle.bind(null, false));
+    stopButton.addEventListener('click', function () {
+      toggle(false)
+    });
+```
 ### Day 37: October 12, 2017    
 
 **Today's Progress**:   
