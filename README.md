@@ -1,6 +1,27 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 39: October 14, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Event Capturing.
+```javascript
+  divs.forEach(div => div.addEventListener('click', logText, {
+      capture: true, //tit will only add the event listener to this element and not to its parents
+      once: true // to execute only once
+    }));
+```
+2. Stop bubbling.  
+```javascript
+  function logText(e) {
+      console.log(this.classList.value);
+      // e.stopPropagation(); // stop bubbling!
+      // console.log(this);
+    }
+```
 ### Day 38: October 13, 2017    
 
 **Today's Progress**:   
