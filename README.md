@@ -1,6 +1,25 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 40: October 14, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. Element coordenates.
+```javascript
+      const dropdownCoords = dropdown.getBoundingClientRect();
+```
+2. Set Element's property.  
+```javascript
+        background.style.setProperty('width', `${coords.width}px`);
+```
+3. Time out function and inline `if` as lambda function.   
+```javascript
+  setTimeout(() => this.classList.contains('trigger-enter')
+        && this.classList.add('trigger-enter-active'), 150);
+```
 ### Day 39: October 14, 2017    
 
 **Today's Progress**:   
