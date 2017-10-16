@@ -1,7 +1,21 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
-### Day 40: October 14, 2017    
+### Day 41: October 16, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. `event.pageX`: Return the position of the mouse pointer.
+2. `scrollLeft` & `scrollTop` Properties.
+```javascript
+let elmnt = document.getElementById("myDIV");
+let x = elmnt.scrollLeft;
+let y = elmnt.scrollTop;
+```
+
+### Day 40: October 15, 2017    
 
 **Today's Progress**:   
 1. Today I continued with JavaScript30.  
