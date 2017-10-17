@@ -1,6 +1,14 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 42: October 17, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. `video.playbackRate`:sets or returns the current playback speed of the audio/video.  
+2.  Rate: `const playbackRate = percent * (max - min) + min;`
 ### Day 41: October 16, 2017    
 
 **Today's Progress**:   
