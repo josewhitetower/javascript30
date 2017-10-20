@@ -1,6 +1,32 @@
 # javascript30
 This is a repository that follows Javascript30 by @wesbos 
 https://javascript30.com/ 
+### Day 44: October 12, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. `e.isTrusted`: The isTrusted event property returns a Boolean value indicating whether the event is trusted or not.  
+2. Note: In Chrome, Firefox and Opera, the event is trusted if it is invoked by the user, and not trusted if it is invoked by a script. In IE, all events are trusted except those that are created with the createEvent() method. 
+### Day 43: October 19, 2017    
+
+**Today's Progress**:   
+1. Today I continued with JavaScript30.  
+
+**Thoughts**:     
+1. `clearInterval()`:The clearInterval() method clears a timer set with the setInterval() method.  
+2. `document.title `: Set the title of the tab bar(document).  
+3. Working with dates.
+```javascript
+  function displayEndTime(timestamp) {
+  const end = new Date(timestamp);
+  const hour = end.getHours();
+  const mins = end.getMinutes();
+  endTime.textContent = `Be back at ${hour}:${mins < 10 ? "0" : ""}${mins}`;
+}
+```
+4. ` this.reset()` to clear a formular.  
 ### Day 42: October 17, 2017    
 
 **Today's Progress**:   
